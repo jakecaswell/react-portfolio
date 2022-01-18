@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.16edd216.css",
+    "main.js": "/react-portfolio/static/js/main.6ce6972f.js",
+    "static/js/787.db9b214f.chunk.js": "/react-portfolio/static/js/787.db9b214f.chunk.js",
+    "static/media/okFidoScreenshot.PNG": "/react-portfolio/static/media/okFidoScreenshot.f5d92d1d2786f8c4b9f2.PNG",
+    "static/media/stock-watchlist.PNG": "/react-portfolio/static/media/stock-watchlist.f4f268d85d5e01644630.PNG",
+    "static/media/css-logo.png": "/react-portfolio/static/media/css-logo.19c8605d6b2861f5fbe0.png",
+    "static/media/Weather-App.PNG": "/react-portfolio/static/media/Weather-App.d35f33d4191a20c3198d.PNG",
+    "static/media/mongo-logo.png": "/react-portfolio/static/media/mongo-logo.e82388bff82e1d056f18.png",
+    "static/media/node-logo.jpg": "/react-portfolio/static/media/node-logo.051ceefc921d1a06c9de.jpg",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.16edd216.css.map": "/react-portfolio/static/css/main.16edd216.css.map",
+    "main.6ce6972f.js.map": "/react-portfolio/static/js/main.6ce6972f.js.map",
+    "787.db9b214f.chunk.js.map": "/react-portfolio/static/js/787.db9b214f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16edd216.css",
+    "static/js/main.6ce6972f.js"
+  ]
+}
