@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const About = () => {
     const technologies = [
@@ -42,12 +42,22 @@ const About = () => {
                 <Col lg={5}><p className='text-center mt-3'>An aspiring Web Developer based in Toledo Ohio. I have both front-end and back-end skills and have practiced the MERN stack (MongoDB, Express, React, and Node).</p></Col>
             </Row>
             <div className='about-technologies'>
-                <Row>
+                <Row className='d-flex justify-content-between'>
+                    <Row>
+                        <Col>
+                            <div>
+                                <h3>Technologies Known</h3>
+                            </div>
+                        </Col>
+                    </Row>
                     {technologies.map((tech, index) => (
-                        <Col lg={2} className='mb-5 d-flex justify-content-around'>
-                            <img src={require(`${tech.image}`)}
-                            style={{height: "65px", width: "65px", borderRadius: "15px"}}/>
-                            <span className='d-flex align-middle'>{tech.name}</span>
+                         <Col lg={3} className='d-flex mt-5'>
+                        <Card className='ms-3 me-3' style={{ width: '18rem' }}>
+                        <Card.Img className='d-flex justify-content-center' variant="top" src={require(`${tech.image}`)} style={{height: "65px", width: "65px", borderRadius: "10px"}}/>
+                        <Card.Body>
+                          <Card.Title>{tech.name}</Card.Title>
+                        </Card.Body>
+                        </Card>
                         </Col>
                     ))}
                 </Row>

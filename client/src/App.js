@@ -3,6 +3,8 @@ import React, { useState} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Project from './pages/Projects';
 
 function App() {
   const [tabs] = useState([
@@ -31,8 +33,12 @@ function App() {
           currentTab === 'About Me' &&
           <About></About>
         }
-        
+        {
+          currentTab === 'Projects' &&
+          <Project></Project>
+        }
       </main>
+      <Footer></Footer>
     </div>
   );
 }

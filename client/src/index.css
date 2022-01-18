@@ -45,3 +45,42 @@ li a:hover {
     border-radius: 10px;
     background: var(--bg-color);
 }
+
+div .card {
+    border: 2px solid black;
+    background-color: var(--nav-color);
+}
+
+div .card img{
+    margin: 1em;
+}
+
+footer {
+    background: var(--nav-color);
+    padding: 2em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 0 1em;
+    border-radius: 100px;
+    display: inline;
+}
+
+.card-body a {
+    background: var(--nav-button-background);
+    color: var(--text-color);
+}
+
+.card-body a:hover {
+    background: var(--nav-color);
+    color: var(--nav-button-background);
+}
