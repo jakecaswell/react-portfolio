@@ -5,6 +5,7 @@ import About from './pages/About';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Project from './pages/Projects';
+import ContactForm from './pages/Contact';
 
 function App() {
   const [tabs] = useState([
@@ -36,6 +37,10 @@ function App() {
         {
           currentTab === 'Projects' &&
           <Project></Project>
+        }
+        {
+          currentTab === 'Contact Me' &&
+          <ContactForm></ContactForm>
         }
       </main>
       <Footer></Footer>

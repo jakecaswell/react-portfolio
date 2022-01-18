@@ -84,3 +84,25 @@ footer a {
     background: var(--nav-color);
     color: var(--nav-button-background);
 }
+
+form label {
+    width: 100%;
+    margin-left: 1.5em;
+}
+
+form input {
+    margin-left: 1.5em;
+}
+
+textarea {
+    margin-left: 1.5em;
+    width: 500px;
+}
+
+.contact-button {
+    background-color: var(--nav-color);
+    color: var(--nav-button-background);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 450px;
+}

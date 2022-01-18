@@ -51,7 +51,7 @@ const About = () => {
                         </Col>
                     </Row>
                     {technologies.map((tech, index) => (
-                         <Col lg={3} className='d-flex mt-5'>
+                         <Col lg={3} className='d-flex mt-5 justify-content-center'>
                         <Card className='ms-3 me-3' style={{ width: '18rem' }}>
                         <Card.Img className='d-flex justify-content-center' variant="top" src={require(`${tech.image}`)} style={{height: "65px", width: "65px", borderRadius: "10px"}}/>
                         <Card.Body>

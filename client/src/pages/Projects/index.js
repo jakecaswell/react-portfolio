@@ -14,7 +14,7 @@ const Project = () => {
             title: 'okFido',
             liveUrl: 'https://polar-refuge-82117.herokuapp.com',
             githubUrl: 'https://github.com/Benrowen5/ok-fido/tree/main',
-            description: 'OkFido is a website for people looking to adopt pets. You can browse many different pets, and if you would like to you could sort them by their specific categories , i.e., cats or dogs. If you spot a pet that you really like, you can sign up and then "like" that pet and save it on your user dashboard! For this project we practiced our backend skills as well and created our own api, which we ended up fetching for the data on the front end. The people that collaborated on this project were Ben Rowen, Chanel Mitchell, and Paige Altemare',
+            description: 'okFido is a website for people looking to adopt pets. You can browse many different pets, and if you would like to you could sort them by their specific categories , i.e., cats or dogs. If you spot a pet that you really like, you can sign up and then "like" that pet and save it on your user dashboard! For this project we practiced our backend skills as well and created our own api, which we ended up fetching for the data on the front end. The people that collaborated on this project were Ben Rowen, Chanel Mitchell, and Paige Altemare',
             image: './assets/okFidoScreenshot.PNG'
         },
         {
@@ -33,7 +33,7 @@ const Project = () => {
                 <Row className='d-flex justify-content-around'>
                 {Projects.map((project) => (
                     <Col lg={3}>
-                    <Card style={{ width: '25rem' }}>
+                    <Card className='ms-5' style={{ width: '25rem' }}>
                         <Card.Img className='ms-5' variant="top" src={require(`${project.image}`)} style={{width: '75%'}}/>
                         <Card.Body>
                             <Card.Title style={{fontSize: '24px'}}>{project.title}</Card.Title>
