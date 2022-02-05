@@ -7,22 +7,29 @@ const Project = () => {
             title: 'Weather App',
             liveUrl: 'https://jakecaswell.github.io/weather-app/',
             githubUrl: 'https://github.com/jakecaswell/weather-app',
-            description: "This is a weather application I built primarily using JS. I got the data from the current weather and five day forecast API's on openweathermap.",
+            description: "This is a weather application built using JS and openWeather api",
             image: './assets/Weather-App.PNG'
         },
         {
             title: 'okFido',
             liveUrl: 'https://polar-refuge-82117.herokuapp.com',
             githubUrl: 'https://github.com/Benrowen5/ok-fido/tree/main',
-            description: 'okFido is a website for people looking to adopt pets. You can browse many different pets, and if you would like to you could sort them by their specific categories , i.e., cats or dogs. If you spot a pet that you really like, you can sign up and then "like" that pet and save it on your user dashboard! For this project we practiced our backend skills as well and created our own api, which we ended up fetching for the data on the front end. The people that collaborated on this project were Ben Rowen, Chanel Mitchell, and Paige Altemare',
+            description: 'okFido is a website for people looking to adopt pets. ',
             image: './assets/okFidoScreenshot.PNG'
         },
         {
             title: 'Stock Watchlist',
             liveUrl: 'https://d-mastrocola.github.io/Stock-Watchlist/',
             githubUrl: 'https://github.com/D-Mastrocola/Stock-Watchlist',
-            description: "This is a group project that is meant to track various stocks by searching their ticker symbols. Your stocks that you pick are saved in localStorage, so don't worry about having to look the same ones up everytime you open the page! This was done using the finnhub api and google charts. My group members were Dominic Mastrocola, Thaddeus Smith, and Tracee Willis.",
+            description: "App where you can save and track stocks.",
             image: './assets/stock-watchlist.PNG'
+        },
+        {
+            title: 'Imperium',
+            liveUrl: 'https://imperium10.herokuapp.com/',
+            githubUrl: 'https://github.com/smaheilman/project-3',
+            description: 'MERN app where users can create, save, and bid on jobs!',
+            image: './assets/imperiumScreenshot.PNG'
         }
     ]
 
